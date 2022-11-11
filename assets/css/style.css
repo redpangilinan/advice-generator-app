@@ -15,7 +15,7 @@ body {
 }
 
 /* Utilities */
-.container-flex {
+.container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,31 +30,51 @@ body {
   max-width: 40rem;
 }
 
+/* Hover */
+.glow-neon:hover {
+  box-shadow: 0 0px 35px 1px hsl(150deg, 100%, 66%);
+}
+
 /* Card */
 .card {
   background-color: hsl(217deg, 19%, 24%);
   width: 100%;
   max-width: 30rem;
-  padding: 1.8rem;
+  padding: 1.6rem 1.8rem 4rem;
   border-radius: 1rem;
-  margin: 0rem 1rem 0rem;
+  margin: 0rem 1rem 3rem;
 }
-.card h4 {
+.card h5 {
   color: hsl(150deg, 100%, 66%);
   text-align: center;
 }
 .card p {
   text-align: center;
-  font-size: 28px;
+  font-size: 21px;
 }
-@media screen and (max-width: 376px) {
+@media screen and (min-width: 530px) {
   .card p {
-    font-size: 21px;
+    font-size: 28px;
   }
 }
 
-/* Hover */
 /* General */
+.btn-dice {
+  cursor: pointer;
+  background-color: hsl(150deg, 100%, 66%);
+  border-radius: 50%;
+  border: 0;
+  width: 4rem;
+  height: 4rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  transition: 0.2s;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
