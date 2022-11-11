@@ -13,15 +13,15 @@
   <main>
     <div class="center-flex full-height">
       <div class="card">
-        <h5>A D V I C E &nbsp# 1 2 3</h5>
+        <h5>A D V I C E &nbsp#<span id="advice_id"></span></h5>
         <div class="center-flex">
-          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."</p>
+          <p><span id="advice"></span></p>
         </div>
         <picture class="center-flex">
           <source media="(min-width: 530px)" srcset="./images/pattern-divider-desktop.svg">
           <img src="./images/pattern-divider-mobile.svg">
         </picture>
-        <button class="btn-dice glow-neon"><img src="./images/icon-dice.svg"></button>
+        <button class="btn-dice glow-neon" onclick="getAdvice()"><img src="./images/icon-dice.svg"></button>
       </div>
     </div>
   </main>
