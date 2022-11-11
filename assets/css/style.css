@@ -48,6 +48,7 @@ body {
 .card h5 {
   color: hsl(150deg, 100%, 66%);
   text-align: center;
+  letter-spacing: 3px;
 }
 .card p {
   text-align: center;
@@ -58,7 +59,7 @@ body {
   .card p {
     font-size: 28px;
     width: 100%;
-    max-width: 95%;
+    max-width: 92%;
   }
 }
 
