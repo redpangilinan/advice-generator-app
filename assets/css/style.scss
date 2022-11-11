@@ -24,7 +24,7 @@ body {
 }
 
 /* Utilities */
-.container {
+.center-flex {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,10 +48,11 @@ body {
 .card {
     background-color: $secondary-bg;
     width: 100%;
+    min-width: 18rem;
     max-width: 30rem;
-    padding: 1.6rem 1.8rem 4rem;
+    padding: 1.6rem 1.8rem 4.5rem;
     border-radius: 1rem;
-    margin: 0rem 1rem 3rem;
+    margin: 0 1.3rem 2.5rem;
     h5 {
         color: $primary-neon;
         text-align: center;
@@ -59,10 +60,13 @@ body {
     p {
         text-align: center;
         font-size: $card-font-size-sm;
+        margin: 0 0 2.5rem;
     }
     @media screen and (min-width: 530px) {
         p {
             font-size: $card-font-size;
+            width: 100%;
+            max-width: 95%;
         }
     }
 }
@@ -80,7 +84,7 @@ body {
     right: 0;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 2rem;
+    margin-top: 2.5rem;
     transition: .2s;
 }
 
