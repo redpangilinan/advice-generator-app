@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+/*===[Variables]===*/
+/*===[Styles]===*/
+/* Setup */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  background-color: hsl(218deg, 23%, 16%);
+  color: hsl(193deg, 38%, 86%);
+}
+
+/* Utilities */
+.container-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.full-height {
+  height: 100vh;
+  max-height: 100%;
+}
+
+.content-width {
+  max-width: 40rem;
+}
+
+/* Card */
+.card {
+  background-color: hsl(217deg, 19%, 24%);
+  width: 100%;
+  max-width: 30rem;
+  padding: 1.8rem;
+  border-radius: 1rem;
+  margin: 0rem 1rem 0rem;
+}
+.card h5 {
+  color: hsl(150deg, 100%, 66%);
+  text-align: center;
+}
+.card p {
+  text-align: center;
+}
+
+/* Hover */
+/* General */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 0.3rem;
+}
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}/*# sourceMappingURL=style.css.map */
