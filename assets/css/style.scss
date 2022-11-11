@@ -6,7 +6,8 @@ $primary-neon: hsl(150, 100%, 66%);
 $primary-bg: hsl(218, 23%, 16%);
 $secondary-bg: hsl(217, 19%, 24%);
 $primary-font: "Manrope", sans-serif;
-$primary-font-size: 18px;
+$card-font-size: 28px;
+$card-font-size-sm: 21px;
 
 /*===[Styles]===*/
 /* Setup */
@@ -46,12 +47,18 @@ body {
     padding: 1.8rem;
     border-radius: 1rem;
     margin: 0rem 1rem 0rem;
-    h5 {
+    h4 {
         color: $primary-neon;
         text-align: center;
     }
     p {
         text-align: center;
+        font-size: $card-font-size;
+    }
+    @media screen and (max-width: 376px) {
+        p {
+            font-size: $card-font-size-sm;
+        }
     }
 }
 
@@ -68,6 +75,6 @@ body {
     text-align: center;
     margin-bottom: 0.3rem;
     a {
-        color: hsl(228, 45%, 44%);
+        color: $primary-neon;
     }
 }

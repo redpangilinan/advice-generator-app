@@ -39,12 +39,18 @@ body {
   border-radius: 1rem;
   margin: 0rem 1rem 0rem;
 }
-.card h5 {
+.card h4 {
   color: hsl(150deg, 100%, 66%);
   text-align: center;
 }
 .card p {
   text-align: center;
+  font-size: 28px;
+}
+@media screen and (max-width: 376px) {
+  .card p {
+    font-size: 21px;
+  }
 }
 
 /* Hover */
@@ -60,5 +66,5 @@ body {
   margin-bottom: 0.3rem;
 }
 .attribution a {
-  color: hsl(228deg, 45%, 44%);
+  color: hsl(150deg, 100%, 66%);
 }/*# sourceMappingURL=style.css.map */
