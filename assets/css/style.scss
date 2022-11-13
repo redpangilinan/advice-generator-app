@@ -44,6 +44,7 @@ body {
     box-shadow:0 0px 35px 1px $primary-neon;
 }
 
+
 /* Card */
 .card {
     background-color: $secondary-bg;
@@ -86,7 +87,14 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 2.5rem;
-    transition: .2s;
+    transition: .5s;
+}
+.btn-dice.animation {
+    transform:rotate(360deg);
+    background-color: $primary-cyan;
+}
+.btn-dice.animation:hover {
+    box-shadow:0 0px 35px 1px $primary-cyan;
 }
 
 .attribution {

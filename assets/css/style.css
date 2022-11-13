@@ -77,7 +77,16 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-top: 2.5rem;
-  transition: 0.2s;
+  transition: 0.5s;
+}
+
+.btn-dice.animation {
+  transform: rotate(360deg);
+  background-color: hsl(193deg, 38%, 86%);
+}
+
+.btn-dice.animation:hover {
+  box-shadow: 0 0px 35px 1px hsl(193deg, 38%, 86%);
 }
 
 .attribution {
