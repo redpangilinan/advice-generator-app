@@ -24,7 +24,7 @@ function getAdvice() {
     try {
         const loadFetch = async () => {
             playAnimation();
-            advice_id.innerHTML = `ADVICE #`;
+            advice_id.innerHTML = ``;
             advice_txt.innerHTML = `Loading...`;
             setTimeout(async () => {
                 await fetchAdvice().then(() => {
