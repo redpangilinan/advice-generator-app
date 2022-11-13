@@ -50,13 +50,13 @@ body {
   text-align: center;
   letter-spacing: 3px;
 }
-.card p {
+.card h1 {
   text-align: center;
   font-size: 21px;
   margin: 0 0 2.5rem;
 }
 @media screen and (min-width: 530px) {
-  .card p {
+  .card h1 {
     font-size: 28px;
     width: 100%;
     max-width: 92%;
