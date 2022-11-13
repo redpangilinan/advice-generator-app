@@ -43,6 +43,7 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Red Pangilinan](https://redpangilinan.github.io/portfolio/)
+- Frontend Mentor - [redpangilinan](https://www.frontendmentor.io/profile/redpangilinan)
+- Facebook - [Red Pangilinan](https://www.facebook.com/redpangilinan715)
+- GitHub - [redpangilinan](https://github.com/redpangilinan)
