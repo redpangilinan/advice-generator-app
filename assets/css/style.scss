@@ -59,13 +59,13 @@ body {
         text-align: center;
         letter-spacing: 3px;
     }
-    p {
+    h1 {
         text-align: center;
         font-size: $card-font-size-sm;
         margin: 0 0 2.5rem;
     }
     @media screen and (min-width: 530px) {
-        p {
+        h1 {
             font-size: $card-font-size;
             width: 100%;
             max-width: 92%;
