@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution Link](https://your-solution-url.com)
+- Solution URL: [Solution Link](https://www.frontendmentor.io/solutions/advice-generator-app-scss-js-HCvoyHO0ks)
 - Live Site URL: [Advice Generator App](https://advice-gen-proj.netlify.app/)
 
 ## My process
