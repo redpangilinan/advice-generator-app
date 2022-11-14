@@ -16,7 +16,7 @@ const fetchAdvice = async () => {
     }).then(advData => {
         const advObj = advData.slip;
         advice_id.innerHTML = `ADVICE #${advObj.id}`;
-        advice_txt.innerHTML = `${advObj.advice}`;
+        advice_txt.innerHTML = `“${advObj.advice}”`;
     })
 }
 
