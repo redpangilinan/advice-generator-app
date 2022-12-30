@@ -20,7 +20,7 @@ const fetchAdvice = async () => {
     })
 }
 
-function getAdvice() {
+const getAdvice = () => {
     try {
         const loadFetch = async () => {
             playAnimation();
