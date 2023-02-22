@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+
 /*===[Variables]===*/
 /*===[Styles]===*/
 /* Setup */
@@ -45,16 +46,19 @@ body {
   border-radius: 1rem;
   margin: 0 1.3rem 2.5rem;
 }
+
 .card h5 {
   color: hsl(150deg, 100%, 66%);
   text-align: center;
   letter-spacing: 3px;
 }
+
 .card h1 {
   text-align: center;
   font-size: 21px;
   margin: 0 0 2.5rem;
 }
+
 @media screen and (min-width: 530px) {
   .card h1 {
     font-size: 28px;
@@ -99,6 +103,9 @@ body {
   text-align: center;
   margin-bottom: 0.3rem;
 }
+
 .attribution a {
   color: hsl(150deg, 100%, 66%);
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */

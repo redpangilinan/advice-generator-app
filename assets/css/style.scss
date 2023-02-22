@@ -41,7 +41,7 @@ body {
 
 /* Hover */
 .glow-neon:hover {
-    box-shadow:0 0px 35px 1px $primary-neon;
+    box-shadow: 0 0px 35px 1px $primary-neon;
 }
 
 
@@ -54,16 +54,19 @@ body {
     padding: 1.6rem 1.8rem 4.5rem;
     border-radius: 1rem;
     margin: 0 1.3rem 2.5rem;
+
     h5 {
         color: $primary-neon;
         text-align: center;
         letter-spacing: 3px;
     }
+
     h1 {
         text-align: center;
         font-size: $card-font-size-sm;
         margin: 0 0 2.5rem;
     }
+
     @media screen and (min-width: 530px) {
         h1 {
             font-size: $card-font-size;
@@ -82,19 +85,21 @@ body {
     width: 4rem;
     height: 4rem;
     position: absolute;
-    left: 0; 
+    left: 0;
     right: 0;
     margin-left: auto;
     margin-right: auto;
     margin-top: 2.5rem;
     transition: .5s;
 }
+
 .btn-dice.animation {
-    transform:rotate(360deg);
+    transform: rotate(360deg);
     background-color: $primary-cyan;
 }
+
 .btn-dice.animation:hover {
-    box-shadow:0 0px 35px 1px $primary-cyan;
+    box-shadow: 0 0px 35px 1px $primary-cyan;
 }
 
 .attribution {
@@ -106,6 +111,7 @@ body {
     width: 100%;
     text-align: center;
     margin-bottom: 0.3rem;
+
     a {
         color: $primary-neon;
     }

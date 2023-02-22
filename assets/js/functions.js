@@ -1,13 +1,15 @@
 const api = "https://api.adviceslip.com/advice";
 const advice_txt = document.body.querySelector('#advice');
 const advice_id = document.body.querySelector('#advice_id');
+const dice = document.body.querySelector('.btn-dice');
+
 
 window.onload = () => {
     getAdvice();
 }
 
 const playAnimation = () => {
-    $(".btn-dice").toggleClass("animation");
+    dice.classList.toggle("animation");
 }
 
 const fetchAdvice = async () => {
